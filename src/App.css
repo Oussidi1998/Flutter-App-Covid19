@@ -12,6 +12,9 @@
 
 .search{
   display: inline-flex;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+}
+.city{
+  margin-bottom: 30px;
 }
 

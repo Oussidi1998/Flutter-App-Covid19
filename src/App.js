@@ -31,6 +31,9 @@ class App extends React.Component {
 
   SearchChanged = country => {
     this.loadData(country);
+    this.setState({
+      country:country
+    })
   };
 
   loadData = country => {
@@ -103,6 +106,7 @@ class App extends React.Component {
           <div className="search">
             <Search SearchCallback={this.SearchChanged} />
           </div>
+          <div className="city"><h2>{this.state.country}</h2></div>
         </header>
         {this.state.error != "" ? (
           <div>{this.state.error}</div>
