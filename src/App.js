@@ -141,7 +141,7 @@ class App extends React.Component {
               </Grid>
             </Grid>
             <Grid container spacing={4}>
-              <Grid item sm={12} md={6}>
+              <Grid item md={12} lg={6}>
                 <Card>
                   <CardContent>
                     <Bar
@@ -153,7 +153,7 @@ class App extends React.Component {
                   </CardContent>
                 </Card>
               </Grid>
-              <Grid item sm={12} md={6}>
+              <Grid item md={12} lg={6}>
                 <Card>
                   <CardContent>
                     <Bar
