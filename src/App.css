@@ -1,0 +1,17 @@
+
+.App {
+  font-family: "Poppins","Roboto","Ralway",sans-serif;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.MuiCard-root:hover{
+  box-shadow:  0 0px 20px rgba(0,0,0,.15) !important;
+}
+
+.search{
+  display: inline-flex;
+  margin-bottom: 100px;
+}
+
