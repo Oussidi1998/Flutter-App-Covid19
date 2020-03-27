@@ -145,24 +145,22 @@ class App extends React.Component {
               </Grid>
             </Grid>
             <Grid container spacing={4}>
-              <Grid item md={12} lg={6}>
+              <Grid item xs={12} sm={12} md={12} lg={6}>
                 <Card>
                   <CardContent>
                     <Bar
                       data={this.state.casesTimeline}
-                      width={100}
                       height={400}
                       options={{ maintainAspectRatio: false }}
                     />
                   </CardContent>
                 </Card>
               </Grid>
-              <Grid item md={12} lg={6}>
+              <Grid item xs={12} sm={12} md={12} lg={6}>
                 <Card>
                   <CardContent>
                     <Bar
                       data={this.state.deathsTimeline}
-                      width={100}
                       height={400}
                       options={{ maintainAspectRatio: false }}
                     />
