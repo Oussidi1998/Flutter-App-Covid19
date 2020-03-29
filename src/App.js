@@ -100,7 +100,10 @@ class App extends React.Component {
   };
 
   render() {
-    return (
+    return (<>
+    <div className="nav">
+          Download Android App &nbsp;&nbsp; <a download href="/COVID-19.apk">Download</a>
+        </div>
       <div className="App">
         <header>
           <div className="search">
@@ -171,7 +174,7 @@ class App extends React.Component {
           </>
         )}
       </div>
-    );
+    </>);
   }
 }
 
